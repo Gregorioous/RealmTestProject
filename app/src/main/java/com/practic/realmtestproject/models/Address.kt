@@ -8,5 +8,5 @@ class Address: EmbeddedRealmObject {
     var houseNumber:Int = 0
     var zip:Int = 0
     var city:String = ""
-    val teacher: Teacher? = null
+    var teacher: Teacher? = null
  }
